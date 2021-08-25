@@ -61,8 +61,38 @@ hr {
     clear:both;
     display:block;
     width: 99.5%;               
-    background-color:darkgray;
+    background-color:rgba(155, 155, 155, 0.2);
     height: 1px;
+}
+
+button {
+    font-family: inherit;
+    font-size: 10px;
+    font-weight: bolder;
+    border-radius: 5%;
+    border: none;
+    padding: 5px 10px;
+}
+
+#main {
+    display: flex;
+    width: 100%;
+}
+
+#current-video {
+    width: 70%;
+}
+
+#other-videos {
+    width: 30%;
+}
+
+.main {
+    display: flex;
+}
+
+.yt-color {
+    background-color: rgba(204,0,0,255);
 }
 
 .bunched {
