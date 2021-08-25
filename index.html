@@ -11,12 +11,16 @@
         <link rel="stylesheet" href="assets/stylesheets/style.css">
     </head>
     <body>
+        <!-- Toolbar at the Top -->
         <nav>
             <div class="col">
                 <a href=""><img src="assets/images/icons/reorder.svg" class="icon"></a>
                 <a href=""><img src="assets/images/icons/youtube_icon.svg" class="icon"></a>
             </div>
             <div class="col">
+                <div class="search-container">
+                    <input type="text">
+                </div>
                 <a href=""><img src="assets/images/icons/mic.svg" class="icon"></a>
             </div>
             <div class="col">
@@ -26,5 +30,39 @@
                 <a href=""><img src="assets/images/profile-pics/me.JPG" class="profile-pic icon"></a>
             </div>
         </nav>
+        <!-- Current Video Area -->
+        <div id="current-video" class="vertical-flex">
+            <iframe>
+                <!-- Video will go here -->
+            </iframe>
+            <section id="video-metadata">
+                <h1 class="text-extra-large alt-color">King Gizzard & The Lizard Wizard - Catching Smoke (Official Video)</h1>
+                <span class="subtle-text">232,970 views &middot; Premiered Jul 26, 2021</span>
+            </section>
+            <hr>
+            <section id="artist-and-video-info">
+                <a href="">
+                    <img src="assets/images/profile-pics/kgatlw.jpg" class="profile-pic icon">
+                </a>
+                <section id="artist-info" class="bunched">
+                    <h2 class="important-text alt-color">King Gizzard And The Lizard Wizard &#9834;</h2>
+                    <p class="subtle-text">123K subscribers</p>
+                </section>
+                <section id="video-info" class="bunched">
+                    <h3 class="highlighted-text">Written and Directed by Danny Cohen</h3>
+                    <a href="http://www.dannycohen.com" >http://www.dannycohen.com</a>
+                </section>
+                <span>SHOW MORE</span>
+            </section>
+            <section id="comment-section">
+
+            </section>
+        </div>
+        <!-- Other Videos Aside -->
+        <div id="other-videos" class="vertical-flex">
+            <aside>
+                <!--All the video thumbnails will go in here-->
+            </aside>
+        </div>
     </body>
 </html>

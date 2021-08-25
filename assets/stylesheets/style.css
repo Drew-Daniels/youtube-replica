@@ -51,6 +51,43 @@ table {
 body {
     background-color: rgba(24,24,24,255);
     font-family: 'Roboto', sans-serif;
+    font-size: 10px;
+    color: grey;
+    line-height: 25px;
+}
+
+hr {
+    border: 0;
+    clear:both;
+    display:block;
+    width: 99.5%;               
+    background-color:darkgray;
+    height: 1px;
+}
+
+.bunched {
+    line-height: 11px;
+    margin-top: 10px;
+}
+
+.text-extra-large {
+    font-size: 15px;
+}
+
+.text-large {
+    font-size: 12px;
+}
+
+.text-small {
+    font-size: 8px;
+}
+
+.alt-color {
+    color: white;
+}
+
+.highlighted-color {
+    color: rgba(57,150,231,255)
 }
 
 nav {
@@ -62,12 +99,20 @@ nav {
 }
 .col {
     /* margin: 0 25px; */
+    display: flex;
+    flex-direction: row;
 }
 
 .profile-pic {
     border-radius: 50%;
+    float: left;
 }
 .icon {
     height: 25px;
     margin: 0 10px;
+}
+
+.vertical-flex {
+    display: flex;
+    flex-direction: column;
 }
