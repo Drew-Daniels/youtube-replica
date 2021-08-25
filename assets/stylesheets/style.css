@@ -48,3 +48,26 @@ table {
 }
 /* Eric Meyer CSS Reset */
 /* My CSS */
+body {
+    background-color: rgba(24,24,24,255);
+    font-family: 'Roboto', sans-serif;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    background-color: rgba(32,32,32,255);
+}
+.col {
+    /* margin: 0 25px; */
+}
+
+.profile-pic {
+    border-radius: 50%;
+}
+.icon {
+    height: 25px;
+    margin: 0 10px;
+}
