@@ -10,7 +10,7 @@
         <link rel="shortcut icon" type= "image/svg" href="assets/images/icons/youtube_icon.svg">
         <link rel="stylesheet" href="assets/stylesheets/style.css">
     </head>
-    <body>
+    <body class="primary-bg-color">
         <!-- Toolbar at the Top -->
         <nav>
             <div class="col">
@@ -19,15 +19,17 @@
             </div>
             <div class="col">
                 <div class="search-container">
-                    <input type="text">
+                    <input type="text" class="searchbox">
+                    <button class="alt-bg-color search-btn">
+                    </button>
                 </div>
-                <a href=""><img src="assets/images/icons/mic.svg" class="icon"></a>
+                <a href=""><img src="assets/images/icons/mic.svg" class="icon rounded primary-bg-color"></a>
             </div>
             <div class="col">
                 <a><img src="assets/images/icons/video_call.svg" class="icon"></a>
                 <a href=""><img src="assets/images/icons/apps.svg" class="icon"></a>
                 <a href=""><img src="assets/images/icons/notifications.svg" class="icon"></a>
-                <a href=""><img src="assets/images/profile-pics/me.JPG" class="profile-pic icon"></a>
+                <a href=""><img src="assets/images/profile-pics/me.JPG" class="profile-pic icon rounded"></a>
             </div>
         </nav>
         <!-- Current Video Area -->
@@ -40,7 +42,7 @@
                     <h1 class="text-extra-large alt-color">King Gizzard & The Lizard Wizard - Catching Smoke (Official Video)</h1>
                     <span class="subtle-text">232,970 views &middot; Premiered Jul 26, 2021</span>
                 </div>
-                <hr>
+                <hr class="alt-bg-color">
                 <div id="artist-and-video-info">
                     <a href="">
                         <img src="assets/images/profile-pics/kgatlw.jpg" class="profile-pic icon">
@@ -62,7 +64,15 @@
             </div>
             <!-- Other Videos Aside -->
             <div id="other-videos" class="vertical-flex">
-                <button>DOWNLOAD</button>
+                <button>SHOW CHAT REPLAY</button>
+                <div id='ad-area'>
+                    <img src="assets/images/ads/grammarly-pic.png" class="inline-block-image">
+                    <img src="assets/images/icons/grammarly-logo.png" class="icon">
+                    <div>
+
+                    </div>
+                    <button>DOWNLOAD</button>
+                </div>
             </div>
         </div>
     </body>

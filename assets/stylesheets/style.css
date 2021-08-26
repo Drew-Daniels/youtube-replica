@@ -49,7 +49,6 @@ table {
 /* Eric Meyer CSS Reset */
 /* My CSS */
 body {
-    background-color: rgba(24,24,24,255);
     font-family: 'Roboto', sans-serif;
     font-size: 10px;
     color: grey;
@@ -61,7 +60,6 @@ hr {
     clear:both;
     display:block;
     width: 99.5%;               
-    background-color:rgba(155, 155, 155, 0.2);
     height: 1px;
 }
 
@@ -71,7 +69,24 @@ button {
     font-weight: bolder;
     border-radius: 5%;
     border: none;
+    margin: 5px;
     padding: 5px 10px;
+}
+
+.primary-bg-color {
+    background-color: rgba(24,24,24,255);
+}
+
+.alt-bg-color {
+    background-color:rgba(155, 155, 155, 0.2);
+}
+
+.inline-block-image {
+    display: inline-block;
+}
+
+.rounded {
+    border-radius: 50%;
 }
 
 #main {
@@ -87,8 +102,39 @@ button {
     width: 30%;
 }
 
+input {
+    background-color: transparent;
+    color: white;
+}
+
+:link {
+    color: rgba(57,150,231,255);
+}
+
 .main {
     display: flex;
+}
+
+.search-container {
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    height:25px;
+    width: 450px;
+}
+
+.searchbox {
+    width: 80%;
+    border: none;
+}
+
+.search-btn {
+    background-image:url("../images/icons/search.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .yt-color {
@@ -134,7 +180,6 @@ nav {
 }
 
 .profile-pic {
-    border-radius: 50%;
     float: left;
 }
 .icon {
