@@ -14,22 +14,26 @@
         <!-- Toolbar at the Top -->
         <nav>
             <div class="col">
-                <a href=""><img src="assets/images/icons/reorder.svg" class="icon"></a>
-                <a href=""><img src="assets/images/icons/youtube_icon.svg" class="icon"></a>
+                <button><img src="assets/images/icons/reorder.svg" class="icon"></button>
+                <button id="yt-btn">
+                    <img src="assets/images/icons/youtube_icon.svg" class="icon">
+                    <span class="yt-font">YouTube</span>
+                </button>
             </div>
-            <div class="col">
+            <div class="col col-2">
                 <div class="search-container">
                     <input type="text" class="searchbox">
-                    <button class="alt-bg-color search-btn">
+                    <button class="secondary-bg-color search-btn">
+                        <img src="assets/images/icons/search.svg">
                     </button>
                 </div>
-                <a href=""><img src="assets/images/icons/mic.svg" class="icon rounded primary-bg-color"></a>
+                <button><img src="assets/images/icons/mic.svg" class="icon rounded primary-bg-color"></button>
             </div>
             <div class="col">
-                <a><img src="assets/images/icons/video_call.svg" class="icon"></a>
-                <a href=""><img src="assets/images/icons/apps.svg" class="icon"></a>
-                <a href=""><img src="assets/images/icons/notifications.svg" class="icon"></a>
-                <a href=""><img src="assets/images/profile-pics/me.JPG" class="profile-pic icon rounded"></a>
+                <button><img src="assets/images/icons/video_call.svg" class="icon"></button>
+                <button><img src="assets/images/icons/apps.svg" class="icon"></button>
+                <button><img src="assets/images/icons/notifications.svg" class="icon"></button>
+                <button><img src="assets/images/profile-pics/me.JPG" class="profile-pic icon rounded"></button>
             </div>
         </nav>
         <!-- Current Video Area -->
@@ -50,10 +54,10 @@
                     <section id="artist-info" class="bunched">
                         <h2 class="important-text alt-color">King Gizzard And The Lizard Wizard &#9834;</h2>
                         <p class="subtle-text">123K subscribers</p>
-                        <button class="yt-color alt-color">SUBSCRIBE</button>
+                        <button class="yt-color alt-color big-btn">SUBSCRIBE</button>
                     </section>
                     <section id="video-info" class="bunched">
-                        <h3 class="highlighted-text">Written and Directed by Danny Cohen</h3>
+                        <h3 class="alt-color">Written and Directed by Danny Cohen</h3>
                         <a href="http://www.dannycohen.com" >http://www.dannycohen.com</a>
                     </section>
                     <span>SHOW MORE</span>
@@ -71,7 +75,7 @@
                     <div>
 
                     </div>
-                    <button>DOWNLOAD</button>
+                    <button class="highlighted-color big-btn">DOWNLOAD</button>
                 </div>
             </div>
         </div>

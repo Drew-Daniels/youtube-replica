@@ -48,6 +48,13 @@ table {
 }
 /* Eric Meyer CSS Reset */
 /* My CSS */
+@font-face {
+    font-family: 'pathway-gothic';
+    src: url('../fonts/PathwayGothicOne-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body {
     font-family: 'Roboto', sans-serif;
     font-size: 10px;
@@ -65,16 +72,39 @@ hr {
 
 button {
     font-family: inherit;
-    font-size: 10px;
-    font-weight: bolder;
-    border-radius: 5%;
     border: none;
-    margin: 5px;
+    margin: 0;
+    padding: 0;
+    border: none;
+    background-color: transparent;
+    vertical-align: middle;
+}
+
+.yt-font {
+    font-family: 'pathway-gothic';
+    color: white;
+    font-size: 20px;
+}
+
+#yt-btn > img,
+#yt-btn > span {
+    vertical-align: middle;
+    margin: 1px;
+}
+
+.big-btn {
+    font-size: 10px;
+    font-weight: 550;
+    border-radius: 0;
     padding: 5px 10px;
 }
 
 .primary-bg-color {
     background-color: rgba(24,24,24,255);
+}
+
+.secondary-bg-color {
+    background-color: rgba(50,50,50,255);
 }
 
 .alt-bg-color {
@@ -121,6 +151,8 @@ input {
     background-color: black;
     height:25px;
     width: 450px;
+    align-items: center;
+    justify-content: center;
 }
 
 .searchbox {
@@ -129,12 +161,11 @@ input {
 }
 
 .search-btn {
-    background-image:url("../images/icons/search.svg");
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
     margin-right: auto;
     margin-left: auto;
+    width: 25%;
+    height: 100%;
+    border-radius: 0;
 }
 
 .yt-color {
@@ -162,8 +193,12 @@ input {
     color: white;
 }
 
+.highlighted-text {
+    color: rgba(57,150,231,255);
+}
+
 .highlighted-color {
-    color: rgba(57,150,231,255)
+    background-color: rgba(57,150,231,255);
 }
 
 nav {
@@ -177,6 +212,10 @@ nav {
     /* margin: 0 25px; */
     display: flex;
     flex-direction: row;
+}
+
+.col-2 {
+    width: 50%;
 }
 
 .profile-pic {
