@@ -1,87 +1,93 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <title>King Gizzard & the Lizard Wizard - Catching Smoke (Official Video) - Youtube</title>
-        <!--Font-->
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-        <link rel="shortcut icon" type= "image/svg" href="assets/images/icons/youtube_icon.svg">
-        <link rel="stylesheet" href="assets/stylesheets/style.css">
-    </head>
-    <body class="primary-bg-color">
-        <!-- Toolbar at the Top -->
-        <nav>
-            <div class="col">
-                <button><img src="assets/images/icons/reorder.svg" class="icon"></button>
-                <button id="yt-btn">
-                    <img src="assets/images/icons/youtube_icon.svg" class="icon">
-                    <span class="yt-font">YouTube</span>
+
+<head>
+    <meta charset="utf-8">
+    <title>King Gizzard & the Lizard Wizard - Catching Smoke (Official Video) - Youtube</title>
+    <!--Font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" type="image/svg" href="assets/images/icons/youtube_icon.svg">
+    <link rel="stylesheet" href="assets/stylesheets/style.css">
+</head>
+
+<body class="primary-bg-color">
+    <!-- Toolbar at the Top -->
+    <nav>
+        <div class="col">
+            <button><img src="assets/images/icons/reorder.svg" class="icon"></button>
+            <button id="yt-btn">
+                <img src="assets/images/icons/youtube_icon.svg" class="icon">
+                <span class="yt-font">YouTube</span>
+            </button>
+        </div>
+        <div class="col col-2">
+            <div class="search-container nav-item">
+                <input type="text" class="searchbox">
+                <button id="yt-search-btn" class="secondary-bg-color search-btn">
+                    <img src="assets/images/icons/search.svg" class="icon icon-small">
                 </button>
             </div>
-            <div class="col col-2">
-                <div class="search-container">
-                    <input type="text" class="searchbox">
-                    <button class="secondary-bg-color search-btn">
-                        <img src="assets/images/icons/search.svg">
-                    </button>
-                </div>
-                <button><img src="assets/images/icons/mic.svg" class="icon rounded primary-bg-color"></button>
+            <button><img src="assets/images/icons/mic.svg" class="icon rounded primary-bg-color"></button>
+        </div>
+        <div class="col">
+            <button><img src="assets/images/icons/video_call.svg" class="icon"></button>
+            <button><img src="assets/images/icons/apps.svg" class="icon"></button>
+            <button><img src="assets/images/icons/notifications.svg" class="icon"></button>
+            <button><img src="assets/images/profile-pics/me.JPG" class="profile-pic icon rounded"></button>
+        </div>
+    </nav>
+    <!-- Current Video Area -->
+    <div id="main">
+        <div id="current-video" class="vertical-flex">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/4L3-HOdMeuM"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
+            </iframe>
+            <div id="video-metadata">
+                <h1 class="text-extra-large alt-color">King Gizzard & The Lizard Wizard - Catching Smoke (Official
+                    Video)</h1>
+                <span class="subtle-text">232,970 views &middot; Premiered Jul 26, 2021</span>
             </div>
-            <div class="col">
-                <button><img src="assets/images/icons/video_call.svg" class="icon"></button>
-                <button><img src="assets/images/icons/apps.svg" class="icon"></button>
-                <button><img src="assets/images/icons/notifications.svg" class="icon"></button>
-                <button><img src="assets/images/profile-pics/me.JPG" class="profile-pic icon rounded"></button>
-            </div>
-        </nav>
-        <!-- Current Video Area -->
-        <div id="main">
-            <div id="current-video" class="vertical-flex">
-                <iframe>
-                    <!-- Video will go here -->
-                </iframe>
-                <div id="video-metadata">
-                    <h1 class="text-extra-large alt-color">King Gizzard & The Lizard Wizard - Catching Smoke (Official Video)</h1>
-                    <span class="subtle-text">232,970 views &middot; Premiered Jul 26, 2021</span>
-                </div>
-                <hr class="alt-bg-color">
-                <div id="artist-and-video-info">
-                    <a href="">
-                        <img src="assets/images/profile-pics/kgatlw.jpg" class="profile-pic icon">
-                    </a>
-                    <section id="artist-info" class="bunched">
-                        <h2 class="important-text alt-color">King Gizzard And The Lizard Wizard &#9834;</h2>
-                        <p class="subtle-text">123K subscribers</p>
-                        <button class="yt-color alt-color big-btn">SUBSCRIBE</button>
-                    </section>
-                    <section id="video-info" class="bunched">
-                        <h3 class="alt-color">Written and Directed by Danny Cohen</h3>
-                        <a href="http://www.dannycohen.com" >http://www.dannycohen.com</a>
-                    </section>
-                    <span>SHOW MORE</span>
-                </div>
-                <section id="comment-section">
-
+            <hr class="alt-bg-color">
+            <div id="artist-and-video-info">
+                <a href="">
+                    <img src="assets/images/profile-pics/kgatlw.jpg" class="profile-pic icon">
+                </a>
+                <section id="artist-info" class="bunched">
+                    <h2 class="important-text alt-color">King Gizzard And The Lizard Wizard &#9834;</h2>
+                    <p class="subtle-text">123K subscribers</p>
+                    <button class="yt-color alt-color big-btn">SUBSCRIBE</button>
                 </section>
+                <section id="video-info" class="bunched">
+                    <h3 class="alt-color">Written and Directed by Danny Cohen</h3>
+                    <a href="http://www.dannycohen.com">http://www.dannycohen.com</a>
+                </section>
+                <span>SHOW MORE</span>
             </div>
-            <!-- Other Videos Aside -->
-            <div id="other-videos" class="vertical-flex">
-                <button>SHOW CHAT REPLAY</button>
-                <div id='ad-area'>
-                    <img src="assets/images/ads/grammarly-pic.png" class="inline-block-image">
-                    <img src="assets/images/icons/grammarly-logo.png" class="icon">
+            <section id="comment-section">
+
+            </section>
+        </div>
+        <!-- Other Videos Aside -->
+        <div id="other-videos" class="vertical-flex">
+            <button>SHOW CHAT REPLAY</button>
+            <div id='ad-area'>
+                <img src="assets/images/ads/grammarly-pic.png" class="inline-block-image">
+                <img src="assets/images/icons/grammarly-logo.png" class="icon">
+                <div>
+                    <span>Get Grammarly</span>
                     <div>
+                        <button>Ad</button>
                         <span>Get Grammarly</span>
-                        <div>
-                            <button>Ad</button>
-                            <span>Get Grammarly</span>
-                        </div>
-                        <button class="highlighted-color big-btn">DOWNLOAD</button>
                     </div>
+                    <button class="highlighted-color big-btn">DOWNLOAD</button>
                 </div>
             </div>
         </div>
-    </body>
+    </div>
+</body>
+
 </html>

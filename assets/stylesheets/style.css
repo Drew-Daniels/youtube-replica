@@ -77,7 +77,6 @@ button {
     padding: 0;
     border: none;
     background-color: transparent;
-    vertical-align: middle;
 }
 
 .yt-font {
@@ -90,6 +89,10 @@ button {
 #yt-btn > span {
     vertical-align: middle;
     margin: 1px;
+}
+
+#yt-search-btn > img {
+    vertical-align: middle;
 }
 
 .big-btn {
@@ -149,21 +152,21 @@ input {
     display: flex;
     flex-direction: row;
     background-color: black;
-    height:25px;
+    height:20px;
     width: 450px;
     align-items: center;
     justify-content: center;
 }
 
 .searchbox {
-    width: 80%;
+    width: 90%;
     border: none;
 }
 
 .search-btn {
     margin-right: auto;
     margin-left: auto;
-    width: 25%;
+    width: 10%;
     height: 100%;
     border-radius: 0;
 }
@@ -207,7 +210,13 @@ nav {
     width: 100%;
     justify-content: space-between;
     background-color: rgba(32,32,32,255);
+    height: 40px;
 }
+
+.nav-item {
+    margin-top: 10px;
+}
+
 .col {
     /* margin: 0 25px; */
     display: flex;
@@ -222,8 +231,12 @@ nav {
     float: left;
 }
 .icon {
-    height: 25px;
+    height: 18px;
     margin: 0 10px;
+}
+
+.icon-small {
+    height: 15px;
 }
 
 .vertical-flex {
