@@ -252,3 +252,7 @@ nav {
 .push-apart {
     justify-content: space-between;
 }
+
+.comment {
+    display: block;
+}
