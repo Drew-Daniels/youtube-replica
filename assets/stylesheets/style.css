@@ -160,7 +160,14 @@ input {
 
 .searchbox {
     width: 90%;
+}
+
+.no-border {
     border: none;
+}
+
+.full-width {
+    width: 100%;
 }
 
 .search-btn {
