@@ -122,6 +122,10 @@ button {
     border-radius: 50%;
 }
 
+.flip-horizontal {
+    transform: scale(-1, 1);
+}
+
 #main {
     display: flex;
     width: 100%;
@@ -176,6 +180,10 @@ input {
     width: 10%;
     height: 100%;
     border-radius: 0;
+}
+
+.no-text-decoration {
+    text-decoration: none;
 }
 
 .yt-color {
