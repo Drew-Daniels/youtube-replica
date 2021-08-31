@@ -95,6 +95,22 @@ button {
     vertical-align: middle;
 }
 
+.subscribe-btn {
+    height: 25px;
+}
+
+.align-flex-start {
+    align-items: flex-start;
+}
+
+.align-flex-end {
+    align-items: flex-end;
+}
+
+.justify-flex-end {
+    justify-content: flex-end;
+}
+
 .big-btn {
     font-size: 10px;
     font-weight: 550;
@@ -233,7 +249,6 @@ nav {
 }
 
 .col {
-    /* margin: 0 25px; */
     display: flex;
     flex-direction: row;
 }
@@ -242,9 +257,6 @@ nav {
     width: 50%;
 }
 
-.profile-pic {
-    float: left;
-}
 .icon {
     height: 18px;
     margin: 0 10px;
@@ -270,4 +282,12 @@ nav {
 
 .comment {
     display: block;
+}
+
+.flex-grow {
+    flex-grow: 1;
+}
+
+.top-margin {
+    margin-top: 10px;
 }
