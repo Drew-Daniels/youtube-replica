@@ -126,6 +126,10 @@ button {
     background-color: rgba(50,50,50,255);
 }
 
+.tertiary-bg-color {
+    background-color: rgba(32,32,32,255);
+}
+
 .alt-bg-color {
     background-color:rgba(155, 155, 155, 0.2);
 }
@@ -290,4 +294,8 @@ nav {
 
 .top-margin {
     margin-top: 10px;
+}
+
+.ad-bg {
+    background-color: yellow;
 }
