@@ -53,23 +53,23 @@
                         <span class="subtle-text">232,970 views &middot; Premiered Jul 26, 2021</span>
                         <div id="video-actions">
                             <button title="I like this">
-                                <img src="assets/images/icons/thumb_up_outline.svg">
+                                <img src="assets/images/icons/thumb_up_outline.svg" class="icon">
                                 <span class="alt-color">13K</span>
                             </button>
                             <button title="I dislike this">
-                                <img src="assets/images/icons/thumb_down_outline.svg">
+                                <img src="assets/images/icons/thumb_down_outline.svg" class="icon">
                                 <span class="alt-color">130</span>
                             </button>
                             <button title="Share">
-                                <img src="assets/images/icons/reply.svg" class="flip-horizontal">
+                                <img src="assets/images/icons/reply.svg" class="flip-horizontal icon">
                                 <span class="alt-color">SHARE</span>
                             </button>
                             <button title="Save">
-                                <img src="assets/images/icons/playlist_add.svg">
+                                <img src="assets/images/icons/playlist_add.svg" class="icon">
                                 <span class="alt-color">SAVE</span>
                             </button>
                             
-                            <button><img src="assets/images/icons/more.svg"></button>
+                            <button><img src="assets/images/icons/more.svg" class="icon"></button>
                         </div>
                     </div>
             </div>
@@ -107,7 +107,9 @@
                     </button>
                     <!--My Comment -->
                     <div id="my-comment-container" class="horizontal-flex">
-                        <img src="assets/images/profile-pics/me.JPG" alt="My Profile Pic" class="icon rounded top-margin">
+                        <div class="circle">
+                            <img src="assets/images/profile-pics/me.JPG" alt="My Profile Pic" class="icon">
+                        </div>
                         <div class="bunched">
                             <label for="my-comment"></label>
                             <input id="my-comment" name="my-comment" type="text" placeholder="Add a public comment..." class="no-border">
@@ -116,9 +118,9 @@
                     </div>
                     <!-- Kenny Ambrose Comment -->
                     <div class="horizontal-flex">
-                        <div>
+                        <div class="circle">
                             <a href="">
-                                <img src="assets/images/profile-pics/ambrose.jpg" alt="Profile Picture of Ambrose Kenny-Smith" class="icon rounded">
+                                <img src="assets/images/profile-pics/ambrose.jpg" alt="Profile Picture of Ambrose Kenny-Smith" class="icon">
                             </a>
                         </div>
                         <div>
@@ -126,22 +128,22 @@
                             <span>1 month ago</span>
                             <p class="comment">I love this</p>
                             <div>
-                                <img src="assets/images/icons/thumb_up_outline.svg" alt="Thumb Up for Comment">
+                                <img src="assets/images/icons/thumb_up_outline.svg" alt="Thumb Up for Comment" class="icon-super-small">
                                 <span>550</span>
-                                <img src="assets/images/icons/thumb_down_outline.svg" alt="Thumb Down for Comment">
+                                <img src="assets/images/icons/thumb_down_outline.svg" alt="Thumb Down for Comment" class="icon-super-small">
                                 <span>REPLY</span>
                                 <button class="highlighted-text">
-                                    <img src="assets/images/icons/arrow_drop_down.svg" alt="Drop Down Arrow to View Replies">
-                                    <span>View 10 Replies</span>
+                                    <img src="assets/images/icons/arrow_drop_down.svg" alt="Drop Down Arrow to View Replies" class="icon-small">
+                                    <span class="text-medium">View 10 Replies</span>
                                 </button>
                             </div>
                         </div>
                     </div>
                     <!-- Cook Craig Comment -->
                     <div class="horizontal-flex">
-                        <div>
+                        <div class="circle">
                             <a href="">
-                                <img src="assets/images/profile-pics/cook.jpg" alt="Profile Picture of Cook Craig" class="icon rounded">
+                                <img src="assets/images/profile-pics/cook.jpg" alt="Profile Picture of Cook Craig" class="icon">
                             </a>
                         </div>
                         <div>
@@ -149,13 +151,13 @@
                             <span>1 month ago</span>
                             <p>People used to say Gizz had too many guitarists/drummers so now they have four pianists intead</p>
                             <div>
-                                <img src="assets/images/icons/thumb_up_outline.svg" alt="Thumb Up for Comment">
+                                <img src="assets/images/icons/thumb_up_outline.svg" alt="Thumb Up for Comment" class="icon-super-small">
                                 <span>1.7K</span>
-                                <img src="assets/images/icons/thumb_down_outline.svg" alt="Thumb Down for Comment">
+                                <img src="assets/images/icons/thumb_down_outline.svg" alt="Thumb Down for Comment" class="icon-super-small">
                                 <span>REPLY</span>
                                 <button class="highlighted-text">
-                                    <img src="assets/images/icons/arrow_drop_down.svg" alt="Drop Down Arrow to View Replies">
-                                    <span>View 26 Replies</span>
+                                    <img src="assets/images/icons/arrow_drop_down.svg" alt="Drop Down Arrow to View Replies" class="icon-small">
+                                    <span class="text-medium">View 26 Replies</span>
                                 </button>
                             </div>
                         </div>
@@ -163,50 +165,56 @@
                     <!-- Eric Moore Comment -->
                     <div class="horizontal-flex">
                         <a href="">
-                            <img src="assets/images/profile-pics/eric.jpg" alt="Profile Picture of Eric Moore" class="icon rounded">
+                            <div class="circle">
+                                <img src="assets/images/profile-pics/eric.jpg" alt="Profile Picture of Eric Moore" class="icon">
+                            </div>
                         </a>
                         <div>
                             <a href="" class="alt-color no-text-decoration">Eric Moore</a>
                             <span>1 month ago</span>
                             <p>I love the cartoon music videos but I mean let's be real... this is what we've all been waiting for.</p>
                             <div>
-                                <img src="assets/images/icons/thumb_up_outline.svg" alt="Thumb Up for Comment">
+                                <img src="assets/images/icons/thumb_up_outline.svg" alt="Thumb Up for Comment" class="icon-super-small">
                                 <span>1.3K</span>
-                                <img src="assets/images/icons/thumb_down_outline.svg" alt="Thumb Down for Comment">
+                                <img src="assets/images/icons/thumb_down_outline.svg" alt="Thumb Down for Comment" class="icon-super-small">
                                 <span>REPLY</span>
                                 <button class="highlighted-text">
-                                    <img src="assets/images/icons/arrow_drop_down.svg" alt="Drop Down Arrow to View Replies">
-                                    <span>View 12 Replies</span>
+                                    <img src="assets/images/icons/arrow_drop_down.svg" alt="Drop Down Arrow to View Replies" class="icon-small">
+                                    <span class="text-medium">View 12 Replies</span>
                                 </button>
                             </div>
                         </div>
                     </div>
                     <!-- Joey Walker Comment -->
                     <div class="horizontal-flex">
-                        <a href="">
-                            <img src="assets/images/profile-pics/joey.jpg" alt="Profile Picture of Joey Walker" class="icon rounded">
-                        </a>
+                        <div class="circle">
+                            <a href="">
+                                <img src="assets/images/profile-pics/joey.jpg" alt="Profile Picture of Joey Walker" class="icon">
+                            </a>
+                        </div>
                         <div>
                             <a href="" class="alt-color no-text-decoration">Joey Walker</a>
                             <span>1 month ago</span>
                             <p>The costumes, choreography, and lack of eyebrows all have me totally geeked. this is amazing and maybe my fav video yet</p>
                             <div>
-                                <img src="assets/images/icons/thumb_up_outline.svg" alt="Thumb Up for Comment">
+                                <img src="assets/images/icons/thumb_up_outline.svg" alt="Thumb Up for Comment" class="icon-super-small">
                                 <span>672</span>
-                                <img src="assets/images/icons/thumb_down_outline.svg" alt="Thumb Down for Comment">
+                                <img src="assets/images/icons/thumb_down_outline.svg" alt="Thumb Down for Comment" class="icon-super-small">
                                 <span>REPLY</span>
                                 <button class="highlighted-text">
-                                    <img src="assets/images/icons/arrow_drop_down.svg" alt="Drop Down Arrow to View Replies">
-                                    <span>View 17 Replies</span>
+                                    <img src="assets/images/icons/arrow_drop_down.svg" alt="Drop Down Arrow to View Replies" class="icon-small">
+                                    <span class="text-medium">View 17 Replies</span>
                                 </button>
                             </div>
                         </div>
                     </div>
                     <!-- Lucas Harwood Comment -->
                     <div class="horizontal-flex">
-                        <a href="">
-                            <img src="assets/images/profile-pics/lucas.jpg" alt="Profile Picture of Lucas Harwood" class="icon rounded">
-                        </a>
+                        <div class="circle">
+                            <a href="">
+                                <img src="assets/images/profile-pics/lucas.jpg" alt="Profile Picture of Lucas Harwood" class="icon">
+                            </a>
+                        </div>
                         <div>
                             <a href="" class="alt-color no-text-decoration">Lucas Harwood</a>
                             <span>1 month ago</span>
@@ -215,55 +223,59 @@
                                 Me: "I watched grown men dress up as butterflies and dance around."
                             </p>
                             <div>
-                                <img src="assets/images/icons/thumb_up_outline.svg" alt="Thumb Up for Comment">
+                                <img src="assets/images/icons/thumb_up_outline.svg" alt="Thumb Up for Comment" class="icon-super-small">
                                 <span>550</span>
-                                <img src="assets/images/icons/thumb_down_outline.svg" alt="Thumb Down for Comment">
+                                <img src="assets/images/icons/thumb_down_outline.svg" alt="Thumb Down for Comment" class="icon-super-small">
                                 <span>REPLY</span>
                                 <button class="highlighted-text">
-                                    <img src="assets/images/icons/arrow_drop_down.svg" alt="Drop Down Arrow to View Replies">
-                                    <span>View 9 Replies</span>
+                                    <img src="assets/images/icons/arrow_drop_down.svg" alt="Drop Down Arrow to View Replies" class="icon-small">
+                                    <span class="text-medium">View 9 Replies</span>
                                 </button>
                             </div>
                         </div>
                     </div>
                     <!-- Michael Moore Comment -->
                     <div class="horizontal-flex">
-                        <a href="">
-                            <img src="assets/images/profile-pics/michael.jpg" alt="Profile Picture of Michael Cavanaugh" class="icon rounded">
-                        </a>
+                        <div class="circle">
+                            <a href="">
+                                <img src="assets/images/profile-pics/michael.jpg" alt="Profile Picture of Michael Cavanaugh" class="icon">
+                            </a>    
+                        </div>
                         <div>
                             <a href="" class="alt-color no-text-decoration">Michael Cavanaugh</a>
                             <span>1 month ago</span>
                             <p>I love this</p>
                             <div>
-                                <img src="assets/images/icons/thumb_up_outline.svg" alt="Thumb Up for Comment">
+                                <img src="assets/images/icons/thumb_up_outline.svg" alt="Thumb Up for Comment" class="icon-super-small">
                                 <span>550</span>
-                                <img src="assets/images/icons/thumb_down_outline.svg" alt="Thumb Down for Comment">
+                                <img src="assets/images/icons/thumb_down_outline.svg" alt="Thumb Down for Comment" class="icon-super-small">
                                 <span>REPLY</span>
                                 <button class="highlighted-text">
-                                    <img src="assets/images/icons/arrow_drop_down.svg" alt="Drop Down Arrow to View Replies">
-                                    <span>View 3 Replies</span>
+                                    <img src="assets/images/icons/arrow_drop_down.svg" alt="Drop Down Arrow to View Replies" class="icon-small">
+                                    <span class="text-medium">View 3 Replies</span>
                                 </button>
                             </div>
                         </div>
                     </div>
                     <!-- Stu Mackenzie Comment -->
                     <div class="horizontal-flex">
-                        <a href="">
-                            <img src="assets/images/profile-pics/stu.jpg" alt="Profile Picture of Stu Mackenzie" class="icon rounded">
-                        </a>
+                        <div class="circle">
+                            <a href="">
+                                <img src="assets/images/profile-pics/stu.jpg" alt="Profile Picture of Stu Mackenzie" class="icon">
+                            </a>    
+                        </div>
                         <div>
                             <a href="" class="alt-color no-text-decoration">Stu Mackenzie</a>
                             <span>1 month ago</span>
                             <p>I love this<p>
                             <div>
-                                <img src="assets/images/icons/thumb_up_outline.svg" alt="Thumb Up for Comment">
+                                <img src="assets/images/icons/thumb_up_outline.svg" alt="Thumb Up for Comment" class="icon-super-small">
                                 <span>550</span>
-                                <img src="assets/images/icons/thumb_down_outline.svg" alt="Thumb Down for Comment">
+                                <img src="assets/images/icons/thumb_down_outline.svg" alt="Thumb Down for Comment" class="icon-super-small">
                                 <span>REPLY</span>
                                 <button class="highlighted-text">
-                                    <img src="assets/images/icons/arrow_drop_down.svg" alt="Drop Down Arrow to View Replies">
-                                    <span>View 6 Replies</span>
+                                    <img src="assets/images/icons/arrow_drop_down.svg" alt="Drop Down Arrow to View Replies" class="icon-small">
+                                    <span class="text-medium">View 6 Replies</span>
                                 </button>
                             </div>
                         </div>
@@ -281,7 +293,7 @@
                     <span>Get Grammarly</span>
                     <div>
                         <button class="ad-bg">Ad</button>
-                        <span>Get Grammarly</span>
+                        <span class="text-medium">Get Grammarly</span>
                     </div>
                     <button class="highlighted-color big-btn">DOWNLOAD</button>
                 </div>

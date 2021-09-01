@@ -95,6 +95,11 @@ button {
     vertical-align: middle;
 }
 
+button > img,
+button > span {
+    vertical-align: middle;
+}
+
 .subscribe-btn {
     height: 25px;
 }
@@ -138,8 +143,14 @@ button {
     display: inline-block;
 }
 
-.rounded {
+.circle {
     border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20px;
+    width: 20px;
 }
 
 .flip-horizontal {
@@ -223,6 +234,10 @@ input {
     font-size: 12px;
 }
 
+.text-medium {
+    font-size: 10px;
+}
+
 .text-small {
     font-size: 8px;
 }
@@ -268,6 +283,11 @@ nav {
 
 .icon-small {
     height: 15px;
+}
+
+.icon-super-small {
+    height: 10px;
+    margin: 0px 7px;
 }
 
 .vertical-flex {
